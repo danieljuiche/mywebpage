@@ -25,4 +25,27 @@ $(document).ready(function(){
 	    }
 	  });
 	});
+
+    // Check the current window size
+    var buttonResize = function () {
+	    var viewportWidth = $(window).width();
+
+	    if (viewportWidth <= 767) {
+	    	$('.intro-buttons').children('li').children('a').removeClass('btn-lg').addClass('btn-md');
+	    }
+
+	    if (viewportWidth > 767) {	    	
+
+	    }
+
+	    if (viewportWidth >= 991) {
+	    	$('.intro-buttons').children('li').children('a').removeClass('btn-md').addClass('btn-lg');
+	    }
+    };
+
+    buttonResize();
+    $(window).resize(function(){
+    	// If screen size falls below certain level, make buttons smaller
+    	buttonResize();
+    });
 });

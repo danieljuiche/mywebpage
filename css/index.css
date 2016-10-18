@@ -1,181 +1,221 @@
 * {
-  font-family: verdana, arial, sans-serif;
+	font-family: verdana, arial, sans-serif;
 }
+
 /* general css */
 .btn {
-  color: white;
-  background-color: #85b6c0;
+	color: white;
+	background-color: #85b6c0;
 }
 
 .media-icon {
-  padding-left: 5px;
+	padding-left: 5px;
 }
 
 /* page anchor css*/
 .anchor-offset {
-  display: block;
-  position: relative;
-  top: -50px;
-  visibility: hidden;
+	display: block;
+	position: relative;
+	top: -50px;
+	visibility: hidden;
 }
 
 .section-break{
-  background-color: #FF3B3F;
-  padding-top: 25px;
+	background-color: #FF3B3F;
+	padding-top: 25px;
 }
 
 /* page break line */
 .intro-divider {
-  border: 0px;
-  color: #f00;
-  background-color: #A9A9A9;
-  height: 5px;
-  width: 70%;
+	border: 0px;
+	color: #f00;
+	background-color: #A9A9A9;
+	height: 5px;
+	width: 70%;
 }
 
 /* page break arrows */
 .arrow-up {
-  margin: auto;
-  width: 0; 
-  height: 0; 
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-bottom: 15px solid #FF3B3F;
+	margin: auto;
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #FF3B3F;
 }
 
 .arrow-down {
-  margin: auto;
-  width: 0; 
-  height: 0; 
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-top: 15px solid #FF3B3F;
+	margin: auto;
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #FF3B3F;
 }
 
 /* navbar section css */
 #collapse-navbar-font {
-  font-weight: 600;
+	font-weight: 600;
 }
-
-/*#bootstrap-overrides .navbar-brand {
-  color: black;
-}*/
 
 /* background image for intro section*/
 .bg-overlay {
-  background-color: #EFEFEF;
-  background: url('../images/cork-wallet.png') center;
-  background-size: 1920px 1080px;
-  opacity: 1;
+	background-color: #EFEFEF;
+	background: url('../images/cork-wallet.png') center;
+	background-size: 1920px 1080px;
+	opacity: 1;
 }
 
 /* intro section css */
 .welcome-message {
-  padding-top: 150px;
-  text-align: center;
-  font-size: 80px;
-  padding-bottom: 200px;
+	padding-top: 150px;
+	text-align: center;
+	padding-bottom: 200px;
 }
 
 .welcome-message h1 {
-  color: #A9A9A9;
-  font-size: 2em;
-  margin-bottom: 0px;
+	color: #A9A9A9;
+	font-size: 100px;
+	margin-bottom: 0px;
 }
 
 .welcome-message h2 {
-  margin-top: 0px;
-  color: #A9A9A9;
-  font-size: 0.5em;
+	margin-top: 0px;
+	color: #A9A9A9;
+	font-size: 36px;
 }
 
-ul.intro-buttons {
-  line-height: 50px;
+.intro-buttons {
+	margin: auto;
+	line-height: 50px;
+	font-size: 105px;
+	float: none;
 }
 
 /* about me page section css */
 .profile-picture {
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 100px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
 }
 
 .about h1 {
-  margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 5em;
-  color: black;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 5em;
+	color: black;
 }
+
 .about p {
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1.3em;
-  color: black;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.3em;
+	color: black;
 }
 
 /* skills section css */
 .language-container span {
-  display: inline-block;
-  margin-bottom: 5px;
+	display: inline-block;
+	margin-bottom: 5px;
 }
 
 .language-container {
-  margin-bottom: 80px;
+	margin-bottom: 80px;
 }
 
 /* projects section css */
 .bg-overlay3 > .container > .row {
-  margin-top: 50px;
+	margin-top: 50px;
 }
 
 .bg-overlay3 {
-  background: url('https://lh4.googleusercontent.com/-sQz7XEFKkEk/VognK969khI/AAAAAAAAACQ/ZOUtF_DzCfc/s593-no/footer_lodyas.png') center;
-  background-size: 1920px 1080px;
-  opacity: 1;
-  padding-bottom: 40px;
+	background: url('https://lh4.googleusercontent.com/-sQz7XEFKkEk/VognK969khI/AAAAAAAAACQ/ZOUtF_DzCfc/s593-no/footer_lodyas.png') center;
+	background-size: 1920px 1080px;
+	opacity: 1;
+	padding-bottom: 40px;
 }
 
 .bg-overlay3 > .container > h1 {
-  margin-top: 50px;
-  color: white;
-  text-align: center;
+	margin-top: 50px;
+	color: white;
+	text-align: center;
 }
 
 .bg-overlay3 > .container > h2 {
-  color: white;
-  text-align: center;
+	color: white;
+	text-align: center;
 }
 
 .caption > .btn {
-  background-color: #76e959;
+	background-color: #76e959;
 }
 
 /* contact info section css */
 .bg-overlay4 {
-  background: url('https://lh6.googleusercontent.com/-V4ckI4PuOQY/VogolxxjkCI/AAAAAAAAADc/2Qs8RE_xaUs/w890-h593-no/subtle_white_feathers_%25402X.png') center fixed;
-  background-size: 1920px 1080px;
-  opacity: 1;
+	background: url('https://lh6.googleusercontent.com/-V4ckI4PuOQY/VogolxxjkCI/AAAAAAAAADc/2Qs8RE_xaUs/w890-h593-no/subtle_white_feathers_%25402X.png') center fixed;
+	background-size: 1920px 1080px;
+	opacity: 1;
 }
 
 .bg-overlay4 > .container {
-  padding-top: 40px;
-  padding-bottom: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
-.bg-overlay4, h3 {
-  margin-top: 0px;
-  color: black;
+.bg-overlay4 > h3 {
+	margin-top: 0px;
+	color: black;
 }
 
 /* footer section css */
 footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  background-color: rgb(231,231,231);
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: rgb(231,231,231);
 }
 
 footer > a {
-  padding-right: 3px;
+	padding-right: 3px;
+}
+
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.welcome-message h1 {
+		font-size: 80px;
+	}
+	.welcome-message h2 {
+		font-size: 32px;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	.welcome-message h1 {
+		font-size: 60px;
+	}
+	.welcome-message h2 {
+		font-size: 24px;
+	}
+}
+
+/* Media queries extra small devices up to 480px */
+@media screen and (max-width: 767px) {
+	.welcome-message h1 {
+		font-size: 40px;
+	}
+	.welcome-message h2 {
+		font-size: 16px;
+	}
+	.list-inline li {
+		display: block;
+	}
+	.profile-picture {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.about h1 {
+	    margin-top: 40px;
+	}
 }
